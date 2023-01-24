@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,300&;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <nav class="header">
+                <button>Стасян</button>
+                <ul>
+                    <li><button>О писателе</button></li>
+                    <li><button>Книги</button></li>
+                    <li><button>Рецензии</button></li>
+                    <li><button>Доставка</button></li>
+                    <li><button>Контакты</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="main_header">
+                <h2>Мировой бестселлер</h2>
+                <h1>"Переезд"</h1>
+                <h3>От Анастасии Бабских</h3>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_start">
+                <p class="basement_header">Подвал тренировки тегов input</p> 
+            </div>
+            <div class="footer_main">
+                <div class="textarea">
+                    <label for="feedback">Отзывы</label>
+                    <form action="#" post>
+                        <textarea id="feedback" value="Введите текст"></textarea>
+                        <input type="submit" value="Отправить">
+                    </form> 
+                </div>
+                
+                <div>
+                    <form class="checkbox">
+                        <label for="feedback_for_number"><input id="feedback_for_number" type="checkbox" checked>Получить ответ по номеру телефона</label>
+                        <label for="sogl"><input id="sogl" type="checkbox" checked>Согласен со всеми условиями</label>
+                        <label for="rushms"><input id="rushms" type="checkbox" checked>Поверить в Рашму</label>
+                        <label for="pinki"><input id="pinki" type="checkbox" checked>Получать волшебные пинки</label>
+                        <label for="dym"><input id="dym" type="checkbox">Уметь думать думы</label>
+                    </form>
+                </div>
+
+                <div>
+                    <form class="radio">
+                        <label for="radio">Ты человек?</label>
+                        <input id="radio_yes" name="radio" type="radio" value="Да"><label for="radio_yes">Да</label>
+                        <input id="radio_no" name="radio" type="radio" value="нет"><label for="radio_no">Нет</label>
+                    </form>
+                </div>
+
+                <div>
+                    <label for="date">Когда вы хотели бы получить подарок?</label><br>
+                    <input id="date" type="datetime-local" name="data">
+                </div>
+
+                <div>
+                    <label for="range">Подвигай точку!</label>
+                    <input id="range" type="range" min="1" max="10" step="2" value="0">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

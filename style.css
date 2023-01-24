@@ -1,0 +1,117 @@
+body {
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #93b0b4d8;
+}
+ul {
+    list-style-type: none;
+}
+header nav {
+    padding: 0 20px;
+}
+.header ul {
+    display: flex;
+    padding-left: 0;
+}
+.header ul li {
+    margin-right: 15px;
+}
+.header ul li:last-child {
+    margin-right: 0px;
+}
+.header button {
+    padding: 5px 15px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #70838f33;
+    color: #dddcdd;
+    border-width: 0px;
+    border-color: white;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background-color: #26242f;;
+}
+h1 {
+    color: #0c4239;
+    font-size: 80px;
+    font-family: 'Cormorant', serif;
+    letter-spacing: 1em;
+}
+h2 {
+    color: #21685c;
+    font-family: 'Cormorant', serif;
+    font-size: 55px;
+}
+h3 {
+    font-family: 'Cormorant', serif;
+    color: #184e49;
+    font-size: 35px;
+    letter-spacing: 0.5em;
+}
+.main_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.basement_header {
+    color: antiquewhite;
+    font-size: 30px;
+    text-shadow: 1px 0 1px #184e49, 
+    0 1px 1px #184e49, 
+    -1px 0 1px #184e49, 
+    0 -1px 1px #184e49;
+}
+.footer_start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.footer_start::after {
+    position: absolute;
+    top: 64px;
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-color: #26242fa8;
+}
+.footer_start::before {
+    position: absolute;
+    top: 4px;
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-color: #26242fa8;
+}
+.footer_main {
+    display: grid;
+    grid-template: auto / repeat(5, 20%);
+    padding: 0 20px;
+    margin-bottom: 30px;
+    gap: 15px;
+}
+.textarea {
+    grid-column: span 2;
+}
+#feedback {
+    width: 90%;
+}
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
