@@ -100,7 +100,7 @@ h3 {
 }
 .footer_main {
     display: grid;
-    grid-template: auto / repeat(5, 20%);
+    grid-template: auto / repeat(5, 1fr);
     padding: 0 20px;
     margin-bottom: 30px;
     gap: 15px;
